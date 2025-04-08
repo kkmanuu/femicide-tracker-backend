@@ -1,4 +1,4 @@
-const db = require('../config/db');  // Import the MySQL connection pool
+const db = require('../config/db'); 
 
 // Get all femicide cases
 const getAllFemicides = async () => {
