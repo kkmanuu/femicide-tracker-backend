@@ -40,7 +40,7 @@ const addFemicide = async (req, res) => {
 // Function to get metadata (assuming it's a placeholder for now)
 const getMetadata = async (req, res) => {
   try {
-    const metadata = {};  // Your logic to fetch metadata goes here
+    const metadata = {};  //fetch metadata goes here
     res.status(200).json(metadata);  // Respond with metadata
   } catch (err) {
     console.error(err);
