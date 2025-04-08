@@ -1,5 +1,5 @@
 // models/CaseModel.js
-const pool = require('../config/db'); // Assuming db.js is in the config folder
+const pool = require('../config/db');
 
 class Case {
   static async getAll() {
