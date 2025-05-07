@@ -12,6 +12,7 @@ const getFemicides = async (req, res) => {
   }
 };
 
+
 const addFemicide = async (req, res) => {
   try {
     const { county, age, date, perpetrator, weapon, description, user_id } = req.body;
