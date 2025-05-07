@@ -15,3 +15,4 @@ router.post('/femicides', addFemicide);
 router.get('/metadata', getMetadata);
 
 module.exports = router;
+
