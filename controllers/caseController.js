@@ -10,6 +10,7 @@ exports.getAllCases = async (req, res, next) => {
   }
 };
 
+
 exports.addCase = async (req, res, next) => {
   try {
     const { county, age, date, perpetrator, weapon, description } = req.body;
