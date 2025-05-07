@@ -28,3 +28,4 @@ const addPerpetrator = async (req, res, next) => {
 module.exports = {
   addPerpetrator,
 };
+
