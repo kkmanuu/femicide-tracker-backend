@@ -10,6 +10,7 @@ const addCounty = async (req, res, next) => {
       return res.status(400).json({ error: 'County name is required' });
     }
 
+    
     const [result] = await pool.execute(
       'INSERT INTO counties (name) VALUES (?)',
       [name]
