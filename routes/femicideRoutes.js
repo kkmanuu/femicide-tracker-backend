@@ -7,6 +7,7 @@ const router = express.Router();
 // GET all femicides
 router.get('/femicides', getFemicides);
 
+
 // POST a new femicide
 router.post('/femicides', addFemicide); 
  // <-- Add this route for posting femicides
