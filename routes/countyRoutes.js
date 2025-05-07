@@ -6,3 +6,4 @@ const router = express.Router();
 router.post('/county', addCounty);  // POST endpoint to add a county
 
 module.exports = router;
+
